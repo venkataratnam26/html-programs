@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1 Example</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form name="form1" action="http://www.sowjanya.com" method="post">
+        <table border="0px" cellpadding="10px" cellspacing="5px" bgcolor="silver">
+            <tr>
+                <td>
+                    <strong><label for="firstname">First Name</label></strong>
+                </td>
+                <td>
+                    <strong><label for="lastname">Last Name</label></strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="firstname" name="firstname" required>
+                </td>
+                <td>
+                    <input type="text" id="lastname" name="lastname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong><label for="birthday">Birthday</label></strong>
+                </td>
+                <td>
+                    <strong><label for="gender">Gender</label></strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="birthday" name="birthday" placeholder="dd/mm/yy" required>
+                </td>
+                <td>
+                    male <input type="radio" id="male" name="gender">
+                    female <input type="radio" id="female" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <strong> <label for="email">Email</label></strong>
+                </td>
+                <td>
+                    <strong><label for="phone">Phone Number</label></strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" id="email" name="email" required>
+                </td>
+                <td>
+                    <input type="tel" id="phone" name="phone" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <b> <labelfor="subject">subject</label></b>
+                </td>
+                <tr>
+                    <td colspan="2">
+                        <select id="subject" name="subject">
+                            <option value="">Select Option</option>
+                            <option value="Telugu" >Telugu</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="English">English</option>
+                            <option value="Maths">Maths</option>
+                        </select>
+                    </td>
+                </tr>
+            </tr>
+            
+            <tr>
+                <td>
+                    <b> <input type="submit" </b>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
